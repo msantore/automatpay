@@ -40,7 +40,7 @@ export function NavbarTitle() {
         className="font-robotoMono text-center text-xl font-medium text-white no-underline"
         aria-label="build-onchain-apps Github repository"
       >
-        BUILD ONCHAIN APPS
+        AUTOMAT PAY
       </NextLink>
     </div>
   );
@@ -58,7 +58,7 @@ function Navbar() {
         <NavbarTitle />
         <div className="flex items-center justify-start gap-8">
           <ul className="hidden items-center justify-start gap-8 md:flex">
-            <li className="flex">
+            {/* <li className="flex">
               <NavbarLink href="https://github.com/coinbase/build-onchain-apps" target="_blank">
                 <GitHubLogoIcon
                   width="24"
@@ -66,11 +66,11 @@ function Navbar() {
                   aria-label="build-onchain-apps Github respository"
                 />
               </NavbarLink>
-            </li>
-            <li className="flex">
+            </li> */}
+            {/* <li className="flex">
               <NavbarLink href="/#get-started">Get Started</NavbarLink>
-            </li>
-            <li className="flex">
+            </li> */}
+            {/* <li className="flex">
               <NavigationMenu.Root className="relative">
                 <NavigationMenu.List className={clsx('flex flex-row space-x-2')}>
                   <NavigationMenu.Item>
@@ -101,7 +101,7 @@ function Navbar() {
                   )}
                 />
               </NavigationMenu.Root>
-            </li>
+            </li> */}
           </ul>
           <AccountConnect />
         </div>
